@@ -1,0 +1,168 @@
+body{
+    font-family: 'roboto', serif;
+    color: white;
+    background: black;
+    
+    font-size: 1rem;
+
+}
+
+.fa{
+    color: aqua;
+
+
+    
+}
+
+.fa:hover{
+    color: blueviolet;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    font-weight: 100;
+    margin: 5rem;
+}
+.txt{
+    font-weight: 500;
+    font-size: 3.3rem;
+    color: #ECDBBA;
+    background:aqua;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.head-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container p{
+    font-size: 2.8rem;
+}
+dialog{
+    background: white;
+    border: tomato 2px solid;
+    border-radius: 20px;
+    /* height: 120px; */
+    width: 400px;
+    color: red;
+    box-shadow: 5px 5px 8px rgb(63, 61, 51);
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    font-size: 25px;
+
+}
+
+b{
+    color: white;
+    background: tomato;
+    border: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+ul{
+    text-decoration: none;
+}
+.flexlistBig{
+    height: 450px;
+    width: 35%;
+    color: #3D2C8D;
+    background: #84DFFF;
+    border: 3px solid #516BEB;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    text-align: center;
+}
+
+
+
+input{
+    height: 30px;
+    width: 80%;
+    border: 2px  solid tomato;
+    border-radius: 5px;
+    margin: 5px;
+}
+.footer{
+    height: 50px;
+    width: 120px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.footer i{
+    padding: 10px;
+}
+.flexlist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.listnewitem{
+    height: 500px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    color: #261C2C;
+}
+.flexlist1{
+    height: 250px;
+    width: 160px;
+    background: cornflowerblue;
+    border-radius: 20px;
+    border: 2px solid tomato;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+.footerlist{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+.taskND{
+    text-decoration: line-through;
+    color: red;
+}
+.newCard-1{
+    background-color: cyan;
+    border: 2px solid cadetblue;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.listTodo,.new-list1{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+.listTodo li{
+    padding: 3px;
+}
+
+li button{
+    background: aqua;
+    color: cornsilk;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
